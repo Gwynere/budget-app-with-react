@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-export default function AddExpensePage() {
-    return (
-        <div>
-            add expense
-        </div>
-    )
-}
+const AddExpensePage = () => (
+  <div>
+    This is from my add expense component
+  </div>
+);
+
+export default AddExpensePage;

@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-export default function NotFoundPage() {
-    return (
-        <div>
-            404
-        </div>
-    )
-}
+const NotFoundPage = () => (
+  <div>
+    404 - <Link to="/">Go home</Link>
+  </div>
+);
+
+export default NotFoundPage;

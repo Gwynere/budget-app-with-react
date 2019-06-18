@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-export default function HelpPage() {
-    return (
-        <div>
-            help
-        </div>
-    )
-}
+const HelpPage = () => (
+  <div>
+    This is from my help component
+  </div>
+);
+
+export default HelpPage;
