@@ -1,8 +1,12 @@
 {
   "name": "budget-app",
+  "jest": {
+    "verbose": true
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "babel-jest": "^24.8.0",
     "jest": "^24.8.0",
     "moment": "^2.24.0",
     "node-sass": "^4.12.0",
@@ -21,7 +25,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "test-jest": "jest",
+    "test-jest": "jest --watch",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
